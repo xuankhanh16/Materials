@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title> summarise html </title>
+
+        <style>
+            .form_flex{
+                display: flex;
+                flex-direction: row;
+            }
+
+            .form_items{
+                font-family: Times;
+                padding: 10px;
+                margin: 10px;
+            }
+
+            td{
+                background-color: pink;
+                align ="center";
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <p style = "color: Red">orignial page</p>
+        <a href="another_page.html"> another page</a> <!--hyperlink-->
+        <p>
+            we can <b>bold</b> and <em>italics</em> this 
+        </p>
+        <img src = "image/channels4_profile.jpg", width =100> <br>
+
+        <h1> unordered list</h1>
+        <ul>
+            <li> item1</li>
+            <li> item2</li>
+        </ul>
+
+        <h1> ordered list</h1>
+        <ol>
+            <li> item 1</li>
+            <li>item 2</li>
+        </ol>
+
+        <table border = "solid" align = "center">
+        <!--each tr is one row-->
+            <tr>
+                <td style ="background-color: Pink">Tags</td> <td>description</td> <td> remarks</td>
+            </tr>
+
+            <tr>
+                <td>&lt td &gt</td> <td>messi</td> <td rowspan ="3"> merge rows </td> </td>
+            </tr>
+
+            <tr>
+                <td colspan = "2">merge 2 col</td>
+            </tr>
+
+        </table>
+
+        <br>
+
+        <form>
+            <div class ="form_flex">
+
+                <div class = "form_items">
+                    <label>First name</label>
+                    <input type ="text" name = "fname">
+                </div>
+
+                <div class = "form_items">
+                    <label>Last name</label>
+                    <input type ="text" name ="lname" >
+                </div>
+            </div>
+
+
+            <button type="submit">submit here</button>
+
+            
+        </form>
+    
+
+
+    </body>
+</html>

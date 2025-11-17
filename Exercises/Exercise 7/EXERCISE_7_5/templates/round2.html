@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>Round {{ round_number }} Scores</title></head>
+<body>
+    <h2>Round {{ round_number }} Scores</h2>
+    <table border="1">
+        <tr><th>Name</th><th>Score</th></tr>
+        {% for name, score in results %}
+        <tr><td>{{ name }}</td><td>{{ score }}</td></tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+

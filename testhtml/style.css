@@ -1,0 +1,19 @@
+/* This is a type selector */
+
+
+/* applied on all table header and table cell */
+th, td {
+  border: 1px solid black; 
+  padding: 5px; 
+  background-color:hotpink}1
+
+table {border-collapse: collapse}
+
+.container {
+    display: flex;
+    background-color: DodgerBlue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    gap: 20px;
+}

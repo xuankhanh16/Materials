@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        Find staff <br>
+    </head>
+
+    <body>
+        <Table>
+            <tr>
+                <th> school name </th> 
+                <th> staff name </th>
+                <th> department </th>
+                <th> contact </th>
+            </tr>
+            {%for i in list%}
+            <tr>
+                <td>{{i[0]}}</td>
+                <td>{{i[1]}}</td>
+                <td>{{i[2]}}</td>
+            </tr>
+            {%endfor%}
+        </Table>
+    </body>
+</html>

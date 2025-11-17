@@ -1,0 +1,23 @@
+<!Doctype HTML>
+
+<html>
+    <body>
+        <table>
+            <tr>
+                <th> {{header[0]}} </th>
+                <th> {{header[1]}} </th>
+                <th> {{header[2]}} </th>
+            </tr>
+
+            {% for i in entry %}
+            <tr>
+                    <td> {{i[0]}} </td>
+                    <td> {{i[1]}} </td>
+                    <td> {{i[2]}} </td>
+                {% endfor %}
+            </tr>
+
+
+        </table>
+    </body>
+</html>

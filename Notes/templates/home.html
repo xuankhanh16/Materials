@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>My home page templates</h1>
+        <p>My string is {{my_string}}</p>
+        <p>my list is {{my_list[2]}}</p>
+
+        <p> first 3 elements in my list are</p>
+        <table>
+            {% for i in my_list %}
+                {%if i < 3%}    
+                    <tr>
+                        <td> {{i}} </td>
+                    </tr>
+                {% endif %}
+            {% endfor %}   
+        </table>
+
+
+    </body>
+</html>

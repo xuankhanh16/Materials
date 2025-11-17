@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Mean Scores</title></head>
+<body>
+    <h2>Mean Scores</h2>
+    <table border="1">
+        <tr><th>Name</th><th>Mean Score</th></tr>
+        {% for name, mean in results %}
+        <tr><td>{{ name }}</td><td>{{ mean }}</td></tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

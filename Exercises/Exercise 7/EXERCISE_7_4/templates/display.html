@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <title>People in school</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th> Name</th>
+            <th> Screen_name</th>
+            <th> Identity</th>
+        </tr>
+
+        {%for person in people %}
+        <tr>
+            <td>{{person['fullname']}}</td>
+            <td>{{person['screenname']}}</td>
+            <td>{{person['identity']}}</td>
+        </tr>
+
+        {%endfor%}
+    </table>
+</body>
