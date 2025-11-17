@@ -37,12 +37,12 @@ star
 bridge
 2
 router
-13
+12
 hub
 11
 identifier
 23
-system
+syste
 86
 global
 19
